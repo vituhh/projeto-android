@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('idroid.otf');
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    background-color: rgb(0, 175, 117);
+}
+
+#tela{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.353);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1{
+    font-family: IDroid, Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: green;
+}
+
+h2{
+    font-family: IDroid, Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: linear-gradient(to right, rgb(188, 230, 188), white);
+    border-radius: 5px;
+    color: green;
+}
+h3{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+ul{
+    display: inline-block;
+    margin-right: 100px;
+    list-style: none;
+}
+li::before{
+    content: '✔';
+}
+.extra{
+    background-color: rgb(189, 247, 189);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.extra > p{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header{
+    background-image: linear-gradient(to top, rgb(1, 136, 1), rgb(4, 225, 151));
+    min-height: 150px;
+    padding-top: 40px;
+}
+header > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
+}
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    max-width: 400px;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.316);
+}
+
+.imagem{
+    display: block;
+    margin: auto;
+}
+.espaco_video{
+    background-color: darkgreen;
+}
+.video{
+    display: block;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.negrito{
+    color: rgb(0, 169, 112);
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(33, 158, 79);
+    font-weight: bold;
+}
+a:hover{
+    color: red;
+}
+
+nav{
+    background-color: green;
+    padding: 10px;
+}
+nav > a{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+nav > a:hover{
+    color: lightgray;
+    background-color: rgba(3, 178, 3, 0.908);
+    color: rgb(0, 110, 0);
+}
+
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
